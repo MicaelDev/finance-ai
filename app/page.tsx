@@ -1,21 +1,16 @@
 import { UserButton } from "@clerk/nextjs";
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
-import { dark } from "@clerk/themes";
+import React from "react";
 
 const Home = async () => {
-  const {userId} = await auth();
+  const { userId } = await auth();
 
   if (!userId) {
-    redirect('/login');
+    redirect("/login");
   }
 
-  return <UserButton
-  showName
-  appearance={{
-    baseTheme: dark,
-  }}
-  />
+  return <UserButton showName />;
 };
 
 export default Home;
