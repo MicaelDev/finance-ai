@@ -1,5 +1,16 @@
 {
-  "node": {},
+  "node": {
+    "f279dfbba9887c04f6cf7f891ea5401a0f492ed9": {
+      "workers": {
+        "app/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmicael%2Ffinance-ai%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmicael%2Ffinance-ai%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/login/page": "action-browser",
+        "app/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "EvqnH101eSmudVtj9tjIpjLZIwSJAEJgUxRIRf18r1A="
+  "encryptionKey": "nK1whSiorFkmRqtmGBDWaGlu1CDnZUrZUjef+M/N/Bw="
 }
